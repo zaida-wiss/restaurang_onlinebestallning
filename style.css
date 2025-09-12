@@ -1,0 +1,43 @@
+html, body{
+    background: rgb(0, 35, 0);
+    margin: 0;
+    padding: 0;
+}
+
+header, header h1, p, footer {
+    background: darkblue;
+    color: aliceblue;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+main{
+background: darkblue
+
+}
+
+nav{
+    background: gray;
+    direction: flex;
+    flex-wrap: wrap;
+}
+nav li{
+    color: aliceblue;
+    direction: flex;
+    flex-wrap: wrap;
+    text-;
+}
+
+.container{
+    border: grey dotted 1px;
+}
+
+.box{
+    border: grey dotted 1px;
+}
+
+/*Texter*/
+
+ p,h1,h2,h3{
+    color: white;
+}
