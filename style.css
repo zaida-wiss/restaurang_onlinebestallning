@@ -1,10 +1,24 @@
 html, body{
-    background: rgb(0, 35, 0);
+    background: url(bilder/21244496_1861835180516992_1164446301_n.jpg);
     margin: 0;
     padding: 0;
 }
 
-header, header h1, p, footer {
+header {
+    background: url(bilder/39_lilla-thai.jpg);
+    color: aliceblue;
+    margin: 0;
+    padding-bottom: 20px;
+    height: 120
+    ;
+}
+
+header h1 {
+    color: aliceblue;
+    margin: 0;
+    padding-bottom: 20px;
+}
+p, footer {
     background: darkblue;
     color: aliceblue;
     margin: 0;
@@ -12,20 +26,13 @@ header, header h1, p, footer {
 }
 
 main{
-background: darkblue
-
+background: darkblue;
 }
 
 nav{
     background: gray;
-    direction: flex;
-    flex-wrap: wrap;
-}
-nav li{
     color: aliceblue;
-    direction: flex;
-    flex-wrap: wrap;
-    text-;
+    display: flex;
 }
 
 .container{
@@ -40,4 +47,7 @@ nav li{
 
  p,h1,h2,h3{
     color: white;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 15px 15px 15px 15px;
 }
