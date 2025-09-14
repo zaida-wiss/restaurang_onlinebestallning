@@ -16,15 +16,19 @@ header {
 
 nav{
     background: red;
+    max-height: 60px;;
     color: aliceblue;
+    display:inline-flex;
+    border: red solid 10px;
+    border-radius: 40%;
+    justify-items: center;
+    align-items: center;
 }
 nav ul{
     list-style: none;
     font-size: 28px;
     display: flex;
-    align-items: baseline;
-    gap: 40px;;
-    justify-content: center;
+    gap: 40px;
 }
 
 main{
@@ -43,9 +47,10 @@ footer {
 
 /*Texter*/
 
-header h1, header h2, header h3 {
+header h2, header h3 {
     color: rgb(255, 242, 240);
-    margin: 0;
+    background-color: red;
+    margin: 20;
     padding-bottom: 20px;
 }
 
