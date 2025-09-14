@@ -1,11 +1,11 @@
 html, body{
-    background: url(bilder/21244496_1861835180516992_1164446301_n.jpg);
+    background: white;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: url(bilder/39_lilla-thai.jpg);
+    background: darkblue;
     color: aliceblue;
     margin: 0;
     padding-bottom: 20px;
@@ -13,26 +13,47 @@ header {
     ;
 }
 
-header h1 {
+
+nav{
+    background: red;
     color: aliceblue;
-    margin: 0;
-    padding-bottom: 20px;
 }
-p, footer {
-    background: darkblue;
-    color: aliceblue;
-    margin: 0;
-    padding-bottom: 20px;
+nav ul{
+    list-style: none;
+    font-size: 28px;
+    display: flex;
+    align-items: baseline;
+    gap: 40px;;
+    justify-content: center;
 }
 
 main{
-background: darkblue;
+    background: white;
 }
 
-nav{
-    background: gray;
+
+footer {
+    background: red;
     color: aliceblue;
-    display: flex;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+
+/*Texter*/
+
+header h1, header h2, header h3 {
+    color: rgb(255, 242, 240);
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+p,h1,h2,h3{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 15px 15px 15px 15px;
 }
 
 .container{
@@ -43,11 +64,6 @@ nav{
     border: grey dotted 1px;
 }
 
-/*Texter*/
 
- p,h1,h2,h3{
-    color: white;
-    font-weight: 700;
-    letter-spacing: 4px;
-    padding: 15px 15px 15px 15px;
-}
+
+
