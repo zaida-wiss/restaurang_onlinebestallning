@@ -1,7 +1,17 @@
-html, body{
+body{
     background: darkblue;
     margin: 0;
     padding: 0;
+}
+.body-container {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
 }
 
 header {
@@ -10,25 +20,62 @@ header {
     margin: 0;
     padding-bottom: 0px;
     height: 120;
+    grid-area: header;
+}
+main {
+    grid-area: main;
 }
 
-
+footer {
+    grid-area: footer;
+    height: 30px;
+    align-items: center;
+    margin: 0px;
+    padding: 10px 10px;
+}
+footer p {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin:0px;
+}
+.container h1, h2, h3{
+    display:flex;
+}
 nav{
-    background: red;
+    display: flex;
+    background: darkblue;
     height: 70px;
     color: aliceblue;
-    display:inline-flex;
-    border: red solid 10px;
-    border-radius: 40%;
+    border-radius: 100%;
     align-items: center;
+    justify-content: center;
+    height: 90px;
+    padding: 20px;
+
 }
 nav ul{
     list-style: none;
     font-size: 28px;
-    display: flex;
-    gap: 40px;
+    border-radius: 100%;
+    border: red solid 3px;
+    background-color: red;
+    padding: 20px;
 }
 
+
+ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    list-style: none;
+    color: White;
+    justify-content: center;
+    
+}
 main{
     background: white;
 }
@@ -41,36 +88,72 @@ footer {
     padding-bottom: 20px;
 }
 
+.meny-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-template-areas: 
+    "aticle article article"
+    "aticle article article"
+    "aticle article article";
+    gap:5px;
+}
 
+img {
+    justify-content: center;
+    justify-items: center;
+    max-height: 150px;
+}
+main p {
+    justify-content: center;
+}
+
+.meny-container{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border: red 2 px solid;
+}
+article {
+    justify-content: center;
+    justify-items: center;
+    margin: 0px 0px 50px 0px;
+}
 
 /*Texter*/
 
 header h2, header h3 {
     color: rgb(255, 242, 240);
     background-color: red;
-    margin: 20;
-    padding-bottom: 20px;
+    margin: 15;
+    padding: 15px;
+    padding-bottom: 0px;
 }
 
 header h1 {
-    font-size: 50px;
+    font-size: 52px;
+    margin: 20px 0px 20px 0px;
+    padding: 5px 0px 0px 0px;
+
 }
 
 p,h1,h2,h3{
-    color: white;
+    color: rgb(169, 33, 33);
     font-weight: 700;
     letter-spacing: 4px;
     padding: 15px 15px 15px 15px;
+    justify-content: center;
+    justify-items: center;
 }
-
-.container{
-    border: grey dotted 1px;
+h3 {
+    margin:0px;
+    font-size: 20px;
 }
-
-.box{
-    border: grey dotted 1px;
+p {
+    margin: 0;
+    font-size: 14px;
+    justify-items: center;
 }
-
-
 
 
