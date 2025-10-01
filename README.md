@@ -14,9 +14,9 @@ Projektet skapades för att träna på **GitHub Projects, Milestones och Issues*
 1. Klona repot:
    ```bash
    git clone https://github.com/zaida-wiss/restaurang_onlinebestallning.git
-Öppna projektmappen.
+2. Öppna projektmappen.
 
-Starta sidan genom att öppna index.html i en webbläsare.
+3. Starta sidan genom att öppna index.html i en webbläsare.
 
 🔗 GitHub
 Restaurang Onlinebeställning – Repository
