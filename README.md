@@ -19,4 +19,4 @@ Projektet skapades för att träna på **GitHub Projects, Milestones och Issues*
 3. Starta sidan genom att öppna index.html i en webbläsare.
 
 🔗 GitHub
-Restaurang Onlinebeställning – Repository
+[Restaurang Onlinebeställning – Repository]([url](https://github.com/zaida-wiss/restaurang_onlinebestallning))
