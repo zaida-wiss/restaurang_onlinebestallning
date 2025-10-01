@@ -38,6 +38,7 @@ footer p {
     justify-content: center;
     color: black;
     margin:0px;
+    font-size: 17px;
 }
 .container h1, h2, h3{
     display:flex;
