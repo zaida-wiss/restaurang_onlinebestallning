@@ -1,21 +1,22 @@
-# Pims Thaivagn 🍜 (om hemsidan blir bra kanske jag ger den till PIM?)
-Ett webbprojekt byggt för att successivt träna på **GitHub Projects, Issues och Milestones** samt grundläggande **HTML & CSS**.
+# Restaurang Onlinebeställning 🍜
 
-## 🎯 Syfte
-- Öva på att skapa repo, Project Board och Milestones.
-- Organisera arbetsuppgifter i Issues och Kanban.
-- Samarbeta via GitHub (collaborators, assignees, labels).
-- Bygga en enkel webbsida med HTML & CSS.
+En enkel webbplats byggd med **HTML & CSS** som presenterar och simulerar en restaurangs onlinebeställningssida.  
+Projektet skapades för att träna på **GitHub Projects, Milestones och Issues** samt för att öva på grundläggande webbutveckling och versionshantering i GitHub.
 
-## 🛠️ Innehåll
-- **index.html** – strukturerad med semantiska HTML5-element.
-- **style.css** – layout och design med CSS Grid och flexbox.
-- **Project Board** – kolumner för Backlog → Done.
-- **Milestones** – MVP, UI Improvements, Testing & QA, Feature Complete.
-- **Issues** – skapade, tilldelade och kopplade till Milestones.
+## ✨ Funktioner
+- **Startsida med restaurangnamn och meny**  
+- **Menysektion** där rätter presenteras med bild, rubrik och beskrivning  
+- **Navigationsmeny** med länk till beställning  
+- **Responsiv layout** byggd med CSS Grid och flexbox  
+- **Projektorganisation i GitHub** med Kanban-board, Issues och Milestones  
 
-## ✅ Resultat
-- Har tränat på att skapa och organisera ett GitHub Project Board.
-- Har arbetat med Milestones och Issues kopplade till olika arbetsuppgifter.
-- Har byggt en enkel webbplats med HTML & CSS och lagt till grundläggande layout med CSS Grid.
-- Har fått en bättre förståelse för hur GitHub kan användas för att strukturera och följa upp projektarbete.
+## 🚀 Installation & körning
+1. Klona repot:
+   ```bash
+   git clone https://github.com/zaida-wiss/restaurang_onlinebestallning.git
+Öppna projektmappen.
+
+Starta sidan genom att öppna index.html i en webbläsare.
+
+🔗 GitHub
+Restaurang Onlinebeställning – Repository
